@@ -350,3 +350,54 @@ nav a:hover{
 html{
     scroll-behavior: smooth;
 }
+/* Estilização da Seção Comunidade */
+.comunidade {
+    background: white;
+    padding: 90px 80px;
+    text-align: center;
+    border-top: 1px solid #edd8cf;
+}
+
+.comunidade h2 {
+    font-size: 34px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    color: #5B4337;
+    margin-bottom: 25px;
+}
+
+.comunidade p {
+    font-size: 18px;
+    color: #6B5A52;
+    margin-bottom: 40px;
+}
+
+#newsletter-form {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    max-width: 600px;
+    margin: auto;
+}
+
+#email-input {
+    flex: 1;
+    padding: 18px 30px;
+    border: 1px solid #edd8cf;
+    border-radius: 50px;
+    font-size: 16px;
+    outline: none;
+    color: #5B4337;
+    background: #FFF8F5;
+    transition: 0.3s;
+}
+
+#email-input:focus {
+    border-color: #C98D72;
+    background: white;
+}
+
+#newsletter-form .botao {
+    border: none;
+    cursor: pointer;
+}
