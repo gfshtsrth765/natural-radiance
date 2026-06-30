@@ -1,0 +1,403 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+
+    font-family:Arial, Helvetica, sans-serif;
+
+    background:#FFF8F5;
+
+    color:#5B4337;
+
+}
+
+header{
+
+    width:100%;
+
+    background:#FFF8F5;
+
+    padding:25px 80px;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    border-bottom:1px solid #edd8cf;
+
+}
+
+.logo img{
+
+    width:160px;
+
+}
+
+nav{
+
+    display:flex;
+
+    gap:35px;
+
+}
+
+nav a{
+
+    text-decoration:none;
+
+    color:#6A4E42;
+
+    font-size:14px;
+
+    letter-spacing:2px;
+
+    transition:.3s;
+
+}
+
+nav a:hover{
+
+    color:#C98D72;
+
+}
+.hero{
+
+    width:100%;
+
+    padding:120px 80px;
+
+    background:#FFF8F5;
+
+    text-align:center;
+
+}
+.hero h1{
+
+    font-size:52px;
+
+    color:#5B4337;
+
+    font-weight:400;
+
+    margin-bottom:30px;
+
+    line-height:65px;
+
+}
+.hero p{
+
+    width:700px;
+
+    margin:auto;
+
+    font-size:20px;
+
+    color:#6B5A52;
+
+    line-height:38px;
+
+    margin-bottom:50px;
+
+}
+.botao{
+
+    display:inline-block;
+
+    padding:18px 45px;
+
+    background:#C98D72;
+
+    color:white;
+
+    text-decoration:none;
+
+    border-radius:50px;
+
+    letter-spacing:2px;
+
+    transition:.4s;
+
+}
+.botao:hover{
+
+    background:#b87c60;
+
+    transform:translateY(-3px);
+
+}
+.essencia{
+
+    background:white;
+
+    padding:100px 80px;
+
+    text-align:center;
+
+}
+.essencia h2{
+
+    font-size:34px;
+
+    font-weight:400;
+
+    letter-spacing:3px;
+
+    color:#5B4337;
+
+    margin-bottom:35px;
+
+}
+.texto-principal{
+
+    max-width:950px;
+
+    margin:auto;
+
+    font-size:18px;
+
+    line-height:35px;
+
+    color:#6B5A52;
+
+    margin-bottom:60px;
+
+}
+.pureza{
+
+    max-width:900px;
+
+    margin:auto;
+
+    background:#FFF8F5;
+
+    padding:40px;
+
+    border-radius:15px;
+
+    border:1px solid #edd8cf;
+
+}
+.pureza h3{
+
+    font-size:28px;
+
+    font-weight:400;
+
+    margin-bottom:20px;
+
+    color:#C98D72;
+
+}
+.pureza p{
+
+    font-size:18px;
+
+    line-height:32px;
+
+    color:#6B5A52;
+
+}
+.colecao{
+
+    padding:100px 80px;
+
+    background:#FFF8F5;
+
+}
+.colecao h2{
+
+    text-align:center;
+
+    font-size:34px;
+
+    font-weight:400;
+
+    letter-spacing:3px;
+
+    margin-bottom:70px;
+
+    color:#5B4337;
+
+}
+.produtos{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:40px;
+
+    flex-wrap:wrap;
+
+}
+.produto{
+
+    width:350px;
+
+    background:white;
+
+    border-radius:18px;
+
+    padding:35px;
+
+    text-align:center;
+
+    border:1px solid #ece1da;
+
+    transition:.4s;
+
+}
+.produto:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:0 20px 40px rgba(0,0,0,.08);
+
+}
+.imagem-produto{
+
+    width:100%;
+
+    height:260px;
+
+    background:#F8F1ED;
+
+    border-radius:15px;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    margin-bottom:25px;
+
+}
+.imagem-produto img{
+
+    width:180px;
+
+}
+.produto span{
+
+    color:#C98D72;
+
+    font-size:13px;
+
+    letter-spacing:2px;
+
+}
+.produto h3{
+
+    margin:18px 0;
+
+    font-size:28px;
+
+    font-weight:400;
+
+    color:#5B4337;
+
+}
+.produto p{
+
+    line-height:30px;
+
+    color:#6B5A52;
+
+    margin-bottom:25px;
+
+}
+.produto h4{
+
+    font-size:28px;
+
+    color:#C98D72;
+
+    margin-bottom:30px;
+
+}
+.produto button{
+
+    width:100%;
+
+    padding:16px;
+
+    border:none;
+
+    background:#C98D72;
+
+    color:white;
+
+    border-radius:50px;
+
+    cursor:pointer;
+
+    letter-spacing:2px;
+
+    transition:.3s;
+
+}
+.produto button:hover{
+
+    background:#b77b61;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+/* Estilização da Seção Comunidade */
+.comunidade {
+    background: white;
+    padding: 90px 80px;
+    text-align: center;
+    border-top: 1px solid #edd8cf;
+}
+
+.comunidade h2 {
+    font-size: 34px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    color: #5B4337;
+    margin-bottom: 25px;
+}
+
+.comunidade p {
+    font-size: 18px;
+    color: #6B5A52;
+    margin-bottom: 40px;
+}
+
+#newsletter-form {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    max-width: 600px;
+    margin: auto;
+}
+
+#email-input {
+    flex: 1;
+    padding: 18px 30px;
+    border: 1px solid #edd8cf;
+    border-radius: 50px;
+    font-size: 16px;
+    outline: none;
+    color: #5B4337;
+    background: #FFF8F5;
+    transition: 0.3s;
+}
+
+#email-input:focus {
+    border-color: #C98D72;
+    background: white;
+}
+
+#newsletter-form .botao {
+    border: none;
+    cursor: pointer;
+}
