@@ -280,9 +280,14 @@ nav a:hover{
 }
 .imagem-produto img{
 
-    width:180px;
+    width:100%;
+
+    height:100%;
+
+    object-fit:contain;
 
 }
+
 .produto span{
 
     color:#C98D72;
